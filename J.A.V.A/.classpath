@@ -5,11 +5,9 @@
 	<classpathentry kind="lib" path="lib/javadocking.jar"/>
 	<classpathentry kind="lib" path="lib/jcommon.jar"/>
 	<classpathentry kind="lib" path="lib/jfreechart.jar"/>
-	<classpathentry kind="lib" path="lib/license_liquidlnf.txt"/>
 	<classpathentry kind="lib" path="lib/liquidlnf.jar"/>
 	<classpathentry kind="lib" path="lib/nimrodlf.jar"/>
 	<classpathentry kind="lib" path="lib/substance-lite.jar"/>
-	<classpathentry kind="lib" path="lib/tiny_laf_license.txt"/>
 	<classpathentry kind="lib" path="lib/tinylaf.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

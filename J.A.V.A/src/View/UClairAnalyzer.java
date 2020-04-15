@@ -64,8 +64,6 @@ public class UClairAnalyzer extends JPanel
 		TextPanel textPanel3 = new TextPanel("");
 		TextPanel textPanel4 = new TextPanel("");
 		
-				
-		
 		
 		
 		//패널을 독기능을 넣어주고 독설정을 해준다
