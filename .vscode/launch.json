@@ -1,0 +1,139 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Launcher<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "Launcher",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UClairAnalyzer<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "View.UClairAnalyzer",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NimRODMain<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "com.nilo.plaf.nimrod.NimRODMain",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ControlPanel<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "de.muntjak.tinylookandfeel.controlpanel.ControlPanel",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JCommon<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jfree.JCommon",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClassPathDebugger<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jfree.base.ClassPathDebugger",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JFreeChart<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jfree.chart.JFreeChart",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MonthDateFormat<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jfree.chart.axis.MonthDateFormat",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BarChartDemo1<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jfree.chart.demo.BarChartDemo1",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PieChartDemo1<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jfree.chart.demo.PieChartDemo1",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TimeSeriesChartDemo1<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jfree.chart.demo.TimeSeriesChartDemo1",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RelativeDateFormat<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jfree.chart.util.RelativeDateFormat",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RadialLayout<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jfree.layout.RadialLayout",
+            "projectName": "J.A.V.A"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeltaQueue<J.A.V.A>",
+            "request": "launch",
+            "mainClass": "org.jvnet.lafwidget.utils.DeltaQueue",
+            "projectName": "J.A.V.A"
+        }
+    ]
+}
